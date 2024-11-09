@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lit Tutorial</title>
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="./Auth.js"></script>
+    <script  type="module" src="./color.js"></script>
+    <script  type="module" src="./notification.js"></script>
+    <script type="module" src="./modal.js"></script>
+
+    <!-- <style>
+        h1{
+            background-color: ;
+        }
+    </style> -->
+</head>
+<body>
+    <my-lit></my-lit>
+    <counter-ele></counter-ele>
+    <login-status></login-status>
+    <simple-modal id="myModal">
+        <h2>Hello, Modal!</h2>
+        <p>This is a simple modal component.</p>
+      </simple-modal>
+    
+      <button onclick="document.getElementById('myModal').isOpen = true;">Open Modal</button>
+    <notification-alert type="success"></notification-alert>
+  <notification-alert type="error"></notification-alert>
+  <notification-alert type="info"></notification-alert>
+</body>
+</html>

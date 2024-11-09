@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./TodoItem.js"></script>
+    <script defer src ="./HelloWorld.js"></script>
+    <script defer src ="./CountElement.js"></script>
+    <script defer src="./CountElement.js"></script>
+    <style>
+        div{
+            width: 50%;
+            margin: auto;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 20px;
+        }
+        h1{
+            color: green;
+        }
+    </style>
+    <title>Web Components</title>  
+</head>
+<body>
+    <div>
+        <count-element steps="6" initialVal="0"></count-element>
+    </div>
+    <h1>Lets go</h1>
+    <hello-world my-name="Ali"></hello-world>
+    <todo-item>option 1 <span slot="desp">this is a named slot</span></todo-item>
+    <todo-item>option 1</todo-item>
+    <todo-item>option 1</todo-item>
+
+</body>
+</html>
+
